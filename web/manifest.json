@@ -1,0 +1,35 @@
+{
+  "name": "Hoob \u2014 Find your next chapter",
+  "short_name": "Hoob",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FBFBFB",
+  "theme_color": "#E1F073",
+  "description": "Startup careers, companies and investment. Find your people.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

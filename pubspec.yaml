@@ -1,0 +1,32 @@
+name: hoob_app
+description: "Hoob — startup careers, companies and investment, adapted from Pixso."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  file_picker: 10.3.10
+  flutter:
+    sdk: flutter
+  shared_preferences: 2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: RedHatDisplay
+      fonts:
+        - asset: assets/fonts/RedHatDisplay-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/RedHatDisplay-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/RedHatDisplay-ExtraBold.ttf
+          weight: 800
